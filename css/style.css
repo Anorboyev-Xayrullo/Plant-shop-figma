@@ -1,8 +1,96 @@
-*{
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@400;600;700 & family= Red+Hat+Display:ital,wght@0,500;1500 & display= almashtirish');
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-ul,li{
+
+ul,
+li {
     list-style: none;
+}
+
+.icon {
+    margin-left: 300px;
+}
+
+.btn {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.btn1 {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    background: #156963;
+    border: none;
+}
+
+.six {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 83px;
+    color: #156963;
+}
+
+.four {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #2C1500;
+}
+
+.text {
+    margin-top: 120px;
+}
+
+.kaktus {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 39px;
+    color: #156963;
+    padding-top: 140px;
+
+}
+
+.rahsiya {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin-left: 250px;
+    line-height: 39px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 320px;
+    height: 160px;
+    left: 960px;
+    top: 582px;
+    background: #156963;
+    padding-top : 83px; 
+    padding-left: 15px;
+    padding-right: 19px;
+}
+.nav_footer{
+    display: flex;      
+    margin-top: 110px;
+    align-items: end;
+}
+@media (max-width: 576px){
+    .father_icon{
+        
+    }
 }
