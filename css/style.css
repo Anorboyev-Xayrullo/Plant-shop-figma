@@ -89,8 +89,59 @@ li {
     margin-top: 110px;
     align-items: end;
 }
-@media (max-width: 576px){
-    .father_icon{
-        
-    }
+
+.card {
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.card h2 {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.card p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+
+}
+
+.main text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    text-align: center;
+    color: #2C1500;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.main_img {
+    position: absolute;
+    width: 113px;
+    height: 352px;
+    left: 58px;
+    top: 1849.73px;
+    padding: 10px 20px;
+    margin-top: 30px;
 }
